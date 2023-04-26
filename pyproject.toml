@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "excel-invoices-to-pdf"
+version = "0.1.0"
+description = ""
+authors = ["Elen Bačovská <elen.bacovska@gmail.com>"]
+readme = "README.md"
+packages = [{include = "excel_invoices_to_pdf"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
