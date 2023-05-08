@@ -10,6 +10,7 @@ packages = [{include = "excel_invoices_to_pdf"}]
 python = "^3.9"
 pandas = "^2.0.1"
 openpyxl = "^3.1.2"
+fpdf = "^1.7.2"
 
 
 [build-system]
